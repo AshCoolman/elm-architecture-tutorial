@@ -62,6 +62,9 @@ view =
   ...
 ```
 
+Note: Elm allows [contracts](http://elm-lang.org/guide/model-the-problem), and you can see one before the `update` definition. It is simply an ordered list of types delimited by `->`. The last type is what is returned, and all others correspond to function parameters.
+```
+
 This tutorial is all about this pattern and small variations and extensions.
 
 
